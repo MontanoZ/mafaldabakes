@@ -1,5 +1,0 @@
-
-## Tarefas
-
-- [ ] Surtar
-- [ ] Testar
