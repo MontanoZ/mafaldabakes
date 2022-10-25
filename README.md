@@ -1,8 +1,7 @@
 
 ## Tarefas
 
-<<<<<<< HEAD
-- [x] Surtar
+- [ ] Surtar
 - [ ] Analisar as questões
 - [ ] Decidir as fórmulas
 
@@ -88,7 +87,3 @@ Página para cadastros de despesas;
 
 - Produtos:
 Página para cadastro de produto, (no caso somente para cadastrar o bolo e o seu valor);
-=======
-- [ ] Surtar
-- [ ] Testar
->>>>>>> 74198463ea710b9e3d3f4d878e5dbcd66bf83e93
