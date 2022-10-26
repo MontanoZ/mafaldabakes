@@ -1,7 +1,7 @@
 
 ## Tarefas
 
-- [ ] Surtar
+- [x] Surtar
 - [ ] Analisar as questões
 - [ ] Decidir as fórmulas
 
