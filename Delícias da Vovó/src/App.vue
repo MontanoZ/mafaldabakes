@@ -6,9 +6,9 @@
   <header>
     <div>
       <nav>
-        <RouterLink to="/">Dashboard</RouterLink>
-        <RouterLink to="/Planejamento">Planejamento</RouterLink>
-        <RouterLink to="/Despesas">Despesas</RouterLink>
+        <RouterLink to="/">Dashboard</RouterLink><br>
+        <RouterLink to="/Planejamento">Planejamento</RouterLink><br>
+        <RouterLink to="/Despesas">Despesas</RouterLink><br>
         <RouterLink to="/Produtos">Produtos</RouterLink>
       </nav>
     </div>
