@@ -4,6 +4,8 @@
 - [x] Surtar
 - [ ] Analisar as questões
 - [ ] Decidir as fórmulas
+- [x] Criar Projeto com Vue
+- [ ] Fazer o layout das páginas
 
 ## Lucro Bruto e Liquido
 
