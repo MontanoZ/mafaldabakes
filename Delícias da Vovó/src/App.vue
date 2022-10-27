@@ -1,11 +1,11 @@
 
 <template>
-    <div class="container mt-5 ">
-      <div class="row ">
-        <Header />
-        <Navbar />
-        <section class="col-sm-8 bg-secondary text-white">
-          <RouterView /> <!-- Isso é o que permite chamar as outras páginas -->
+    <div class="container mt-5">
+      <div class="row">
+        <Navbar class="me-3"/>
+        <section class="col-sm-8 bg-secondary text-white p-0">
+          <Header />
+          <RouterView class="p-2 "/> 
         </section>
       </div>
     </div>

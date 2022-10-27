@@ -1,9 +1,9 @@
 <template>
-    <div class="header">
+    <div class="header px-4">
         <h1>Mafalda Bakes</h1>
         <div class="user">
             <h4>Usuário</h4>
-            <img class="img" src="../vovo.png" alt="">
+            <img class="img" :src="usuario" :alt="alt">
         </div>
     </div>    
 </template>
@@ -11,23 +11,24 @@
 <script>
     export default{
         name: "Header",
-        methods: {
-        async corNav(){
-            
+        data(){
+            return{
+                usuario: "/img/vovo.png",
+                alt: "Foto do Usuario"
+            }
         }
-    }
     }
 
 </script>
 
 <style scoped>
     .header{
+        display: flex;
         justify-content: space-between;
         align-items: center;
         height: 70px;
         text-align: left;
         list-style: none;
-        display: flex;
         color: black;
         text-decoration: none;
         background-color: white;
