@@ -17,14 +17,25 @@ const router = createRouter({
     {
       path: '/Despesas',
       name: 'Despesas',
-      component: () => import('../views/Despesas.vue')
+      component: () => import('../views/Despesas.vue'),
+      input_despesas_fixas: "",
+      input_despesas_variaveis: ""
     },
     {
       path: '/Produtos',
       name: 'Produtos',
       component: () => import('../views/Produtos.vue')
     }
-  ]
+  ],
+
+  methods:{
+    submitForm(e){
+      e.preventDefault();
+      console.log("oi")
+    }
+  }
 })
+
+
 
 export default router
