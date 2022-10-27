@@ -15,7 +15,14 @@
 
 <script>
 export default{
-    name: "Dashboard"
+    name: "Dashboard",
+    props: {
+        banco: IDBDatabase
+    },
+    methods: {
+      
+    }
+
 }
 </script>
 

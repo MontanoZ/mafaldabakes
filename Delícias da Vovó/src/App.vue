@@ -5,7 +5,7 @@
         <Navbar class="me-3"/>
         <section class="col-sm-8 bg-secondary text-white p-0">
           <Header />
-          <RouterView class="p-2 "/> 
+          <RouterView class="p-3" :banco="db"/> 
         </section>
       </div>
     </div>
@@ -20,6 +20,31 @@
     components: {
       Header,
       Navbar
+    },
+    data(){
+      return{
+        db: null,
+      }
+    },
+    async created() {
+      this.db = await this.getDb();
+      console.log(this.db)
+    },
+    methods: {
+      async getDb(){
+        return new Promise((resolve, reject) => {
+          let request = indexedDB.open("teste", 1);
+	
+          request.onerror = e => {
+            console.log('Error ao criar banco de dado!', e);
+            reject('Error');
+          };
+
+          request.onsuccess = e => {
+            resolve(e.target.result);
+          }; 
+        });
+      }
     }
   }
 </script>
