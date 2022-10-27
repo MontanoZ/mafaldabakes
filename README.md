@@ -2,10 +2,10 @@
 ## Tarefas
 
 - [x] Surtar
-- [ ] Analisar as questões
-- [ ] Decidir as fórmulas
+- [x] Analisar as questões
 - [x] Criar Projeto com Vue
 - [ ] Fazer o layout das páginas
+- [ ] Decidir as funções a serem utilizadas
 
 ## Lucro Bruto e Liquido
 

@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Aqui é a página de Despesas</h1>
-        <h2>Nesta página serão cadastradas todas as despesas</h2>
+        <p>Nesta página serão cadastradas todas as despesas</p>
         <h3>Necessário:</h3>
         <li>Varios inputs para colocar as despesas de cada coisa, como ingredientes, gastos com água e energia, etc</li>
         <li>Dá deixar pro usuario adicionar apenas os gastos variaveis e o fixos são acrescentados automaticamente</li>
