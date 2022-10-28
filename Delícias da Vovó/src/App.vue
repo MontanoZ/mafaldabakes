@@ -34,7 +34,7 @@
     methods: {
       async getDb(){
         return new Promise((resolve, reject) => {
-          let request = indexedDB.open("teste", 1);
+          let request = indexedDB.open("teste", 2);
 	
           request.onerror = e => {
             console.log('Error ao criar banco de dado!', e);
@@ -44,12 +44,15 @@
           request.onsuccess = e => {
             resolve(e.target.result);
             console.log("Deu certo")
+            var db = e.target.result;
+            var variaveis = db.createObjectStore("variaveis");
           };
+          
 
           request.onupgradeneeded = e => { 
-            var db = e.target.result;
+            
             console.log("ola")
-            var variaveis = db.createObjectStore("variaveis");
+           
           }
         });
       }

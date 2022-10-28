@@ -77,7 +77,7 @@ Então, seriam estimado cerca de **R$ 11,10** de lucro por bolo.
 - aluguel é R$ 4.561,00
 - 2.500,00 com o meu funcionário.
 
-**TOTAL:** R$ 8.660,00 -------
+**TOTAL:** R$ 8.660,00
 
 ### Salário da vovó: R$ 3.566,00 (Ela diz que varia)
 
