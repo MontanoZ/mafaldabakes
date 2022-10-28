@@ -1,8 +1,8 @@
 <template>
     <div class="header px-4">
-        <h1>Mafalda Bakes</h1>
+        <h1 class="pt-3">Mafalda Bakes</h1>
         <div class="user">
-            <h4>Usuário</h4>
+            <h4 class="pt-2">Usuário</h4>
             <img class="img" :src="usuario" :alt="alt">
         </div>
     </div>    
@@ -31,7 +31,7 @@
         list-style: none;
         color: black;
         text-decoration: none;
-        background-color: white;
+        background-color: #f5b000;
         margin-bottom: 15px;
     }
 
