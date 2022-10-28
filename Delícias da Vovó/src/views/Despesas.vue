@@ -5,9 +5,9 @@
         <p>Nesta página serão cadastradas todas as despesas</p>
         <h2>Necessário:</h2>
         <li>Varios inputs para colocar as despesas de cada coisa, como ingredientes, gastos com água e energia, etc</li>
-        <li>Dá deixar pro usuario adicionar apenas os gastos variaveis e o fixos são acrescentados automaticamente</li>
+        <li>Daria para deixar o usuario adicionar apenas os gastos variáveis e o fixos são acrescentados automaticamente</li>
         <li>Fazer um campo que será colocado o mês, isso vai servir de index no banco de dados</li>
-        <li>No final fazer um input pra enviar os dados pro banco de dados</li>
+        <li>No final fazer um input pra enviar os dados pro banco de dados</li><br>
         
         <form class="row g-3">
             <h3>Despesas variáveis:</h3>
@@ -36,7 +36,7 @@
                 <input type="number" step="0.01" min="0" class="form-control" id="Energia" placeholder="0,00">
             </div>
             <div class="col-12">
-                <a @click="addGastos" class="btn btn-primary">Cadastrar</a>
+                <input @click="addGastos" class="btn btn-primary" value="Cadastrar">
             </div>
         </form>
     

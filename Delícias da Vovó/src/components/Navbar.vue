@@ -1,10 +1,11 @@
 <template>
-    <nav class="bg-light col-sm-3 ">
-        <ul id="nav" class="nav flex-column text-center ">
+    <nav class="bg-light col-sm-3 text-center">
+        <img id="img" class="img-fluid rounded-circle img-thumbnail m-4" :src="logo" :alt="alt">
+        <ul id="nav" class="nav flex-column">
             <RouterLink class=" nav-link" to="/">Dashboard</RouterLink><br>
             <RouterLink class=" nav-link" to="/Planejamento">Planejamento</RouterLink><br>
             <RouterLink class=" nav-link" to="/Despesas">Despesas</RouterLink><br>
-            <RouterLink class=" nav-link" to="/Produtos">Produtos</RouterLink>
+            <RouterLink class=" nav-link mb-5" to="/Produtos">Produtos</RouterLink>
         </ul> 
     </nav>
     
@@ -13,9 +14,10 @@
 <script>
 export default {
     name: "Navbar",
-    methods: {
-        async corNav(){
-            
+    data(){
+        return {
+            logo: "/img/vovo-navbar.jpg",
+            alt: "Logo Delícias da VoVó"
         }
     }
 }
@@ -30,5 +32,8 @@ export default {
     }
     #nav .router-link-exact-active{
         color: #f5b000;
+    }
+    #img {
+        width: 130px;
     }
 </style>
