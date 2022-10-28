@@ -36,8 +36,6 @@
         text-decoration: none;
         background-color: #f5b000;
         border:#7800ac solid 5px;
-        
-
     }
 
     .user{
