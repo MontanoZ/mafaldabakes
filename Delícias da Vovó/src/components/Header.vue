@@ -32,7 +32,6 @@
         color: black;
         text-decoration: none;
         background-color: #f5b000;
-        margin-bottom: 15px;
     }
 
     .user{

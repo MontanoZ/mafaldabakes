@@ -84,4 +84,8 @@
 
 <style scoped>
 
+    div{
+        font-family: 'Oxygen', sans-serif;
+    }
+
 </style>
