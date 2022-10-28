@@ -42,4 +42,7 @@ export default {
     #img {
         width: 100px;
     }
+    #img {
+        width: 130px;
+    }
 </style>
