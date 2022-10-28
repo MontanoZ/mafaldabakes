@@ -5,7 +5,7 @@
         <Navbar class="me-3"/>
         <section class="col-sm-8 bg-secondary text-white p-0">
           <Header />
-          <RouterView class="p-3" :banco="db"/> 
+          <RouterView class="p-4" :banco="db"/> 
         </section>
       </div>
     </div>
@@ -29,6 +29,7 @@
     async created() {
       this.db = await this.getDb();
       console.log(this.db)
+      
     },
     methods: {
       async getDb(){
@@ -42,7 +43,14 @@
 
           request.onsuccess = e => {
             resolve(e.target.result);
-          }; 
+            console.log("Deu certo")
+          };
+
+          request.onupgradeneeded = e => { 
+            var db = e.target.result;
+            console.log("ola")
+            var variaveis = db.createObjectStore("variaveis");
+          }
         });
       }
     }

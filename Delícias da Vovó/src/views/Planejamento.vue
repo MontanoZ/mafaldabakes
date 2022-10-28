@@ -6,7 +6,10 @@
 
 <script>
 export default{
-    name: "Planejamento"
+    name: "Planejamento",
+    props: {
+        banco: IDBDatabase
+    },
 }
 </script>
 
