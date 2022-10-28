@@ -88,10 +88,17 @@
     }
 
     #mes{
+        position: absolute;
+        width: 12%;
         cursor: pointer;
     }
 
+    label{
+        margin-top: 30px;
+    }
+
     input, #mes{
+        display: inline-block;
         border-radius: 20px solid;
         border-color: #4a0568;
     }
