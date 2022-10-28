@@ -36,7 +36,7 @@
                 <input type="number" step="0.01" min="0" class="form-control" id="Energia" placeholder="0,00">
             </div>
             <div class="col-12">
-                <input @click="addGastos" class="btn btn-primary" value="Cadastrar">
+                <input @click="addGastos" id= "cadastrar" class="btn btn-primary" value="Cadastrar">
             </div>
         </form>
     
@@ -83,9 +83,24 @@
 
 
 <style scoped>
-
     div{
         font-family: 'Oxygen', sans-serif;
     }
 
+    #mes{
+        cursor: pointer;
+    }
+
+    input, #mes{
+        border-radius: 20px solid;
+        border-color: #4a0568;
+    }
+
+    #cadastrar{
+        background-color: #4a0568;
+    }
+
+    #cadastrar:hover{
+        border-color: #f5b000;
+    }
 </style>

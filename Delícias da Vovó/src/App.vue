@@ -55,7 +55,7 @@
   
   body{
     font-family: 'Bebas Neue', cursive;
-    background-color: #7800acce;
+    background-color: #7800ac;
     color: #fff; 
   }
 </style>

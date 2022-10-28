@@ -1,11 +1,13 @@
 <template>
-    <div class="header px-4">
-        <h1 class="pt-3">Mafalda Bakes</h1>
-        <div class="user">
-            <h4 class="pt-2">Usuário</h4>
-            <img class="img" :src="usuario" :alt="alt">
+    <div class="header-bg">
+        <div class="header px-4">
+            <h1 class="pt-3">Delícias da Vovó</h1>
+            <div class="user">
+                <h4 class="pt-2">Usuário</h4>
+                <img class="img" :src="usuario" :alt="alt">
+            </div>
         </div>
-    </div>    
+    </div>
 </template>
 
 <script>
@@ -22,6 +24,7 @@
 </script>
 
 <style scoped>
+
     .header{
         display: flex;
         justify-content: space-between;
@@ -32,6 +35,9 @@
         color: black;
         text-decoration: none;
         background-color: #f5b000;
+        border:#7800ac solid 5px;
+        
+
     }
 
     .user{

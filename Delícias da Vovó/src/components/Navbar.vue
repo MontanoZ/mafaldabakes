@@ -24,15 +24,20 @@ export default {
 </script>
 
 <style scoped>
-
+    nav{
+        border: #7800ac solid 5px;
+    }
     .nav-link {
+        border: #4a0568 solid 2px;
+        border-radius: 5px;
         color: #7900ac;
     }
     .nav-link:hover {
+        background-color: #f5b000;
         color: #4a0568;
     }
     #nav .router-link-exact-active{
-        color: #f5b000;
+        color: #4a0568;
     }
     #img {
         width: 100px;
