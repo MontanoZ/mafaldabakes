@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style scoped>
+
     .nav-link {
         color: #7900ac;
     }
@@ -34,6 +35,6 @@ export default {
         color: #f5b000;
     }
     #img {
-        width: 130px;
+        width: 100px;
     }
 </style>
