@@ -50,12 +50,12 @@
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-  * {
-    font-family: 'Bebas Neue', cursive;
-  }
+  
   body{
-    background-color: #7800acce;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #7800ac;
     color: #fff; 
   }
 </style>

@@ -26,7 +26,10 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 
+  main{
+    font-family: 'Oxygen', sans-serif;
+  }
 
 </style>
